@@ -70,7 +70,7 @@ apis:
         url: https://developers.google.com/jules/api
       - type: Reference
         url: https://developers.google.com/jules/api/reference/rest
-      - type: Quickstart
+      - type: GettingStarted
         url: https://jules.google/docs/api/reference/
       - type: Authentication
         url: https://jules.google.com/settings#api

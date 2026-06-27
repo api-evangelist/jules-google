@@ -3,19 +3,18 @@
   "feeds": [
     {
       "source": "https://blog.google/technology/google-labs/jules/",
-      "feed_url": "https://blog.google/technology/google-labs/jules/",
-      "title": "",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     },
     {
-      "source": "https://jules.google/#pricing",
-      "feed_url": "https://jules.google/#pricing",
-      "title": "",
+      "source": "https://developers.googleblog.com/en/meet-jules-tools-a-command-line-companion-for-googles-async-coding-agent/",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:48:48Z",
+  "agent_pulled": "2026-06-27"
 }
