@@ -75,6 +75,8 @@ apis:
       - type: Authentication
         url: https://jules.google.com/settings#api
 common:
+  - type: DomainSecurity
+    url: security/jules-google-domain-security.yml
   - type: Website
     url: https://jules.google
   - type: WebApp
