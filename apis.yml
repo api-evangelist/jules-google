@@ -35,6 +35,19 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jules-google.png
 tags:
   - Artificial Intelligence
+  - Coding Agents
+  - Autonomous Agent
+  - Asynchronous Agent
+  - Developer Tools
+  - Code Generation
+  - Pull Requests
+  - GitHub
+  - Gemini
+  - Google Labs
+  - Software Development Lifecycle
+  - DevOps
+tags_raw:
+  - Artificial Intelligence
   - Coding Agent
   - Autonomous Agent
   - Asynchronous Agent
@@ -68,6 +81,15 @@ apis:
     humanURL: https://developers.google.com/jules/api
     baseURL: https://jules.googleapis.com/v1alpha
     tags:
+      - Coding Agents
+      - Autonomous Agent
+      - Sessions
+      - Sources
+      - Activities
+      - GitHub
+      - Pull Requests
+      - Alpha
+    tags_raw:
       - Coding Agent
       - Autonomous Agent
       - Sessions
