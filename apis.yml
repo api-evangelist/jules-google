@@ -46,7 +46,7 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jules-google.png
 tags:
   - Artificial Intelligence
-  - Coding Agent
+  - Coding Agents
   - Autonomous Agent
   - Asynchronous Agent
   - Developer Tools
@@ -92,7 +92,7 @@ apis:
     humanURL: https://developers.google.com/jules/api
     baseURL: https://jules.googleapis.com/v1alpha
     tags:
-      - Coding Agent
+      - Coding Agents
       - Autonomous Agent
       - Sessions
       - Sources
