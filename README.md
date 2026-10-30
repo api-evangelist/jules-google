@@ -1,4 +1,4 @@
-# jules-google
+# Jules
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jules — Google's autonomous AI coding agent (jules.google) with REST API, CLI, and Gemini CLI extension
+Jules is Google's autonomous, asynchronous AI coding agent, developed inside Google Labs and powered by the Gemini family of models (currently Gemini 2.5 Pro on the free tier and Gemini 3 Pro on paid tiers). Jules connects to a user's GitHub repositories, clones the target repo into a sandboxed Google Cloud VM, generates a multi-step plan, and then executes coding tasks such as bug fixes, refactors, dependency bumps, test authoring, and small feature builds, ultimately opening a pull request for human review. Jules ships three surfaces beyond the web app at jules.google.com: a documented REST API in alpha at jules.googleapis.com/v1alpha (Sources, Sessions, Activities) authenticated via X-Goog-Api-Key, a lightweight CLI called Jules Tools installable via npm, and a Gemini CLI extension that exposes Jules as a /jules slash command. Access is gated to Google account holders and the API is experimental. Jules is sold as part of the Google AI subscription bundles, with a free introductory plan (15 tasks/day, 3 concurrent), Google AI Pro at $19.99/month (100 tasks/day, 15 concurrent, Gemini 3 Pro), and Google AI Ultra at $124.99/month (300 tasks/day, 60 concurrent, priority Gemini 3 Pro access).
+
+**Areas:** Artificial Intelligence · Coding Agents · Autonomous Agent · Asynchronous Agent · Developer Tools · Code Generation · Pull Requests · GitHub · Gemini · Google Labs · Software Development Lifecycle · DevOps
+
+## Jules on APIs.io
+
+Everything profiled for Jules is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jules-google/](https://apis.io/providers/jules-google/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Jules API](https://apis.io/apis/jules-google/jules-api/) — Alpha REST API for Google's Jules autonomous coding agent. Exposes Sources (connected GitHub repositories), Sessions (units of work against a source with a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jules Google Domain Security](https://apis.io/security/jules-google/jules-google-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jules.google)
+- [Documentation](https://jules.google/docs/)
+- [API reference](https://developers.google.com/jules/api/reference/rest)
+- [Pricing](https://jules.google/#pricing)
+- [Blog](https://blog.google/technology/google-labs/jules/)
+- [Terms of service](https://policies.google.com/terms)
+- [Privacy policy](https://policies.google.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 20.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jules-google/](https://apis.io/providers/jules-google/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jules: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jules-google/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
